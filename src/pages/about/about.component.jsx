@@ -27,43 +27,45 @@ const About = () => {
                 In January 23 2021 I will finish my Front end + Mobile development bootcamp through 'Nucamp'.
                 <br />I love learning about new technologies, the problems that they solve and how can I use them to build better and scalable products.
                 <br /> <br />
-                <Col className="d-flex justify-content-center flex-wrap">
-                  <div>
-                    <a href="#contact">
-                      <Button className="m-2" variant="outline-primary">
-                        Let's talk
-                      </Button>
-                    </a>
-                  </div>
-                  <div>
-                    <a href="https://www.linkedin.com/resume-builder/urn:li:fs_memberResume:8025937/?edit=true" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-success">
-                        My Resume
-                      </Button>
-                    </a>
-                  </div>
-                  <div>
-                    <a href="https://github.com/Enyabuto?tab=repositories" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-dark">
-                        GitHub
-                      </Button>
-                    </a>
-                  </div>
-                  <div>
-                    <a href="https://www.linkedin.com/in/elisha-nyabuto-1636661bb/" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-info">
-                        LinkedIn
-                      </Button>
-                    </a>
-                  </div>
-                </Col>
+                <Row>
+                  <Col className="d-flex justify-content-center flex-wrap">
+                      <div>
+                          <a href='#contact'>
+                            <Button className='m-2' variant='outline-primary'>
+                              Let's talk
+                            </Button>
+                          </a>
+                      </div>
+                      <div>
+                        <a href='https://www.linkedin.com/resume-builder/urn:li:fs_memberResume:8025937/?edit=true' target='_blank' rel='noopener noreferrer'>
+                            <Button className='m-2' variant='outline-success'>
+                              My Resume
+                            </Button>
+                        </a>
+                      </div>
+                      <div>
+                        <a href='https://github.com/Enyabuto' target='_blank' rel='noopener noreferrer'>
+                            <Button className='m-2' variant='outline-dark'>
+                              Github
+                            </Button>
+                        </a>
+                      </div>
+                      <div>
+                        <a href='https://www.linkedin.com/in/elisha-nyabuto-1636661bb/' target='_blank' rel='noopener noreferrer'>
+                            <Button className='m-2' variant='outline-info'>
+                              LinkedIn
+                            </Button>
+                        </a>
+                      </div>
+                  </Col>
+                </Row>
               </Row>
             </Col>
           </Row>
         </Container>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default About;

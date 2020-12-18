@@ -54,7 +54,7 @@ const TitleMessage = () => {
                 </div>
              </div>   
         </MyTitleMessage>
-    )
-}
+    );
+};
 
 export default TitleMessage
