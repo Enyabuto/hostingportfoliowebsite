@@ -28,15 +28,16 @@ const About = () => {
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
                 Hi there! I am <strong>&nbsp;Elisha Osoro Nyabuto</strong>
-                <br />I am a passionate programmer and a learner. I am a Junior
-                Front End Developer with Javascript, React.js, Redux, HTML,CSS
-                and working through React native right now.
                 <br />
-                In January 23 2021 I will finish my Front end + Mobile
-                development bootcamp through 'Nucamp'.
-                <br />I love learning about new technologies, the problems that
-                they solve and how can I use them to build better and scalable
-                products.
+                Passionate front-end web developer with 3 years of experience
+                using JavaScript, React, Node and HTML &CSS to build all aspects
+                of the user experience and user interface for client-facing
+                landing pages. Specializes using React, React Native and Redux
+                to develop and implement high-responsive user interface
+                components. Seeking to leverage broad development experience and
+                hands-on technical expertise in a challenging role in front end
+                development. A quick learner with relentless passion to improve
+                my skills.
                 <br /> <br />
                 <Row>
                   <Col className="d-flex justify-content-center flex-wrap">
@@ -49,7 +50,7 @@ const About = () => {
                     </div>
                     <div>
                       <a
-                        href="file:///Users/elisha2k18/Downloads/Resume.01%20(3).pdf"
+                        href="https://s3.amazonaws.com/attachments.angel.co/5642536-24aa180050d7708261487987ce428df0.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJS6W3HGZGRJIRBTA%2F20210310%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210310T001439Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1f16172d43d4ca262ac0568286620786d7bd76963088318e54b5c95b648c2f89"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
