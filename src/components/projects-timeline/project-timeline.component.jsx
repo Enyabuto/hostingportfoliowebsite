@@ -9,9 +9,12 @@ import LoginPage from "../../assets/img/projects/loginpage.webp";
 import Bootstrap from "../../assets/img/projects/bootstrap.webp";
 import ShoppingCart from "../../assets/img/projects/shoppingcart.webp";
 import TeslaClone from "../../assets/img/projects/teslaclone.webp";
+import NucampsiteReact from "../../assets/img/projects/react-nucampsite.webp";
 
 // skills used in projects
 import L_REACT from "../../assets/img/skills/react.svg";
+import L_REDUX from "../../assets/img/skills/redux.svg";
+import L_REACT_ROUTER from "../../assets/img/skills/react-router.svg";
 import Image from "react-bootstrap/Image";
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
@@ -131,6 +134,116 @@ const ProjectTimeline = () => {
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
                   href="https://github.com/Enyabuto/hostingportfoliowebsite"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+          <ImageEvent
+            date="11/09/2020"
+            className="text-center"
+            text="React Nucampsite"
+            src={NucampsiteReact}
+            alt="React Nucampsite"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong>This is a campsite project
+                        designed to show my skill working with all aspects of
+                        React.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>You have to be logged in to post a picture</li>
+                          <li>
+                            Powered by React,Redux,API,JSON server,Git,GitHub
+                            and Node for NPM packages
+                          </li>
+                          <li>You can post a comment</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REDUX}
+                                alt="redux"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Redux
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT_ROUTER}
+                                alt="react router"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>
+                              {""}
+                              React Router
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_GIT}
+                                alt="Git"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Git
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_GITHUB_PAGES}
+                                alt="github pages"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>
+                              {""}
+                              GitHub Pages
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://github.com/Enyabuto/reactportfolio-part2"
                   target="_blank"
                 >
                   SOURCE CODE
