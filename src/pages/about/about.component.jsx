@@ -7,6 +7,7 @@ import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 import "./about.style.css";
 
+
 const About = () => {
   return (
     <div id="about">
