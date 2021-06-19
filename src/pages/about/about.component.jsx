@@ -7,7 +7,6 @@ import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 import "./about.style.css";
 
-
 const About = () => {
   return (
     <div id="about">
@@ -51,7 +50,7 @@ const About = () => {
                     </div>
                     <div>
                       <a
-                        href="https://s3.amazonaws.com/attachments.angel.co/5642536-24aa180050d7708261487987ce428df0.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJS6W3HGZGRJIRBTA%2F20210310%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210310T001439Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1f16172d43d4ca262ac0568286620786d7bd76963088318e54b5c95b648c2f89"
+                        href="https://docs.google.com/document/d/1EtmoXJnoj67sGMY6V8pzBHwuIAf7woCRpKHR5JXh33E/edit"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
