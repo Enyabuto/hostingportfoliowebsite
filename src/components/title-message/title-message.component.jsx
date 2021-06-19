@@ -3,7 +3,6 @@ import Typewriter from "typewriter-effect";
 import styled from "styled-components";
 
 const MyTitleMessage = styled.h1`
-  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   width: 100%;
   top: 22rem;
@@ -15,50 +14,48 @@ const MyTitleMessage = styled.h1`
   }
   div {
     color: ${(props) => props.theme.textColor};
-    text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4);
-    font-weight: 100;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    font-weight: 500;
     letter-spacing: 7px;
     .main {
-      font-size: 70px;
+      font-size: 50px;
     }
     .sub {
-      font-size: 57px;
+      font-size: 27px;
       letter-spacing: 2px;
     }
   }
 `;
 
-const TitleMessage = () => {
-  return (
-    <MyTitleMessage>
-      <div className="titleMessage">
-        <div className="heading">
-          <div className="main text-center mb-3">
-            Hi, I am
-            <br />
-            <span>
-              <strong>Elisha Osoro Nyabuto</strong>
-            </span>
-          </div>
-          <div className="sub">
-            <Typewriter
-              options={{
-                strings: [
-                  "Front End Developer",
-                  "Mobile Developer",
-                  "Student",
-                  "Gamer",
-                ],
-                autoStart: true,
-                loop: true,
-                delay: 50,
-              }}
-            />
-          </div>
+const TitleMessage = () => (
+  <MyTitleMessage>
+    <div className="titleMessage">
+      <div className="heading">
+        <div className="main text-center mb-3">
+          Hi, I am
+          <br />
+          <span>
+            <strong>Elisha O Nyabuto</strong>
+          </span>
+        </div>
+        <div className="sub">
+          <Typewriter
+            options={{
+              strings: [
+                "Front-End Developer",
+                "Mobile Developer",
+                "Student",
+                "Gamer",
+              ],
+              autoStart: true,
+              loop: true,
+              delay: 50,
+            }}
+          />
         </div>
       </div>
-    </MyTitleMessage>
-  );
-};
+    </div>
+  </MyTitleMessage>
+);
 
 export default TitleMessage;
