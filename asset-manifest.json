@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/hostingportfoliowebsite/static/css/main.fd70207f.chunk.css",
-    "main.js": "/hostingportfoliowebsite/static/js/main.cc6be02f.chunk.js",
-    "main.js.map": "/hostingportfoliowebsite/static/js/main.cc6be02f.chunk.js.map",
+    "main.js": "/hostingportfoliowebsite/static/js/main.821680fb.chunk.js",
+    "main.js.map": "/hostingportfoliowebsite/static/js/main.821680fb.chunk.js.map",
     "runtime-main.js": "/hostingportfoliowebsite/static/js/runtime-main.a385d16b.js",
     "runtime-main.js.map": "/hostingportfoliowebsite/static/js/runtime-main.a385d16b.js.map",
-    "static/js/2.bef9e565.chunk.js": "/hostingportfoliowebsite/static/js/2.bef9e565.chunk.js",
-    "static/js/2.bef9e565.chunk.js.map": "/hostingportfoliowebsite/static/js/2.bef9e565.chunk.js.map",
+    "static/js/2.4822289d.chunk.js": "/hostingportfoliowebsite/static/js/2.4822289d.chunk.js",
+    "static/js/2.4822289d.chunk.js.map": "/hostingportfoliowebsite/static/js/2.4822289d.chunk.js.map",
     "static/js/3.cf9d41f1.chunk.js": "/hostingportfoliowebsite/static/js/3.cf9d41f1.chunk.js",
     "static/js/3.cf9d41f1.chunk.js.map": "/hostingportfoliowebsite/static/js/3.cf9d41f1.chunk.js.map",
     "index.html": "/hostingportfoliowebsite/index.html",
     "static/css/main.fd70207f.chunk.css.map": "/hostingportfoliowebsite/static/css/main.fd70207f.chunk.css.map",
-    "static/js/2.bef9e565.chunk.js.LICENSE.txt": "/hostingportfoliowebsite/static/js/2.bef9e565.chunk.js.LICENSE.txt",
+    "static/js/2.4822289d.chunk.js.LICENSE.txt": "/hostingportfoliowebsite/static/js/2.4822289d.chunk.js.LICENSE.txt",
     "static/media/bootstrap-4.997c463d.svg": "/hostingportfoliowebsite/static/media/bootstrap-4.997c463d.svg",
+    "static/media/bootstrap.47d42dbc.webp": "/hostingportfoliowebsite/static/media/bootstrap.47d42dbc.webp",
     "static/media/css3.8fba365c.svg": "/hostingportfoliowebsite/static/media/css3.8fba365c.svg",
     "static/media/git-icon.c60b7e5a.svg": "/hostingportfoliowebsite/static/media/git-icon.c60b7e5a.svg",
     "static/media/github-api.3a5ccf39.svg": "/hostingportfoliowebsite/static/media/github-api.3a5ccf39.svg",
@@ -23,22 +24,28 @@
     "static/media/loginpage.e329bf62.webp": "/hostingportfoliowebsite/static/media/loginpage.e329bf62.webp",
     "static/media/logow.adf413cd.webp": "/hostingportfoliowebsite/static/media/logow.adf413cd.webp",
     "static/media/material-ui-1.fd510ed8.svg": "/hostingportfoliowebsite/static/media/material-ui-1.fd510ed8.svg",
+    "static/media/mongodb.d89a6eeb.svg": "/hostingportfoliowebsite/static/media/mongodb.d89a6eeb.svg",
+    "static/media/native.8cadaff6.webp": "/hostingportfoliowebsite/static/media/native.8cadaff6.webp",
+    "static/media/nodejs.52cbf9a8.svg": "/hostingportfoliowebsite/static/media/nodejs.52cbf9a8.svg",
     "static/media/contact-form.styles.css": "/hostingportfoliowebsite/static/media/picture.aaa7841c.webp",
-    "static/media/profile.e6e2fd22.webp": "/hostingportfoliowebsite/static/media/profile.e6e2fd22.webp",
+    "static/media/profile.425f5c74.webp": "/hostingportfoliowebsite/static/media/profile.425f5c74.webp",
     "static/media/react-bootstrap.534ba574.svg": "/hostingportfoliowebsite/static/media/react-bootstrap.534ba574.svg",
+    "static/media/react-nucampsite.b676b043.webp": "/hostingportfoliowebsite/static/media/react-nucampsite.b676b043.webp",
     "static/media/react-router.a87b7227.svg": "/hostingportfoliowebsite/static/media/react-router.a87b7227.svg",
     "static/media/react.add74742.svg": "/hostingportfoliowebsite/static/media/react.add74742.svg",
     "static/media/redux.0e4fb1c8.svg": "/hostingportfoliowebsite/static/media/redux.0e4fb1c8.svg",
     "static/media/sass-1.8aa78a83.svg": "/hostingportfoliowebsite/static/media/sass-1.8aa78a83.svg",
+    "static/media/shoppingcart.b3fdc6cc.webp": "/hostingportfoliowebsite/static/media/shoppingcart.b3fdc6cc.webp",
     "static/media/slide1.b377582b.webp": "/hostingportfoliowebsite/static/media/slide1.b377582b.webp",
     "static/media/slide2.1e049461.webp": "/hostingportfoliowebsite/static/media/slide2.1e049461.webp",
     "static/media/slide3.6ae439c3.webp": "/hostingportfoliowebsite/static/media/slide3.6ae439c3.webp",
-    "static/media/styled-components.2e00d138.svg": "/hostingportfoliowebsite/static/media/styled-components.2e00d138.svg"
+    "static/media/styled-components.2e00d138.svg": "/hostingportfoliowebsite/static/media/styled-components.2e00d138.svg",
+    "static/media/teslaclone.a39f2b70.webp": "/hostingportfoliowebsite/static/media/teslaclone.a39f2b70.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.a385d16b.js",
-    "static/js/2.bef9e565.chunk.js",
+    "static/js/2.4822289d.chunk.js",
     "static/css/main.fd70207f.chunk.css",
-    "static/js/main.cc6be02f.chunk.js"
+    "static/js/main.821680fb.chunk.js"
   ]
 }
